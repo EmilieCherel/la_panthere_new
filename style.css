@@ -123,7 +123,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -478,6 +477,7 @@ button {
 
 .icon-md {
   font-size: 30px !important;
+  color: #473f29;
 }
 
 .icon-lg {
@@ -679,7 +679,7 @@ a {
 }
 
 p {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -741,6 +741,10 @@ h4 {
   color: #ffffff !important;
 }
 
+.brown {
+  color: #473f29 !important;
+}
+
 .portfolio-thumb {
   margin-bottom: 24px;
 }
@@ -777,7 +781,9 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: peachpuff !important;
+  font-weight: 600;
+  font-size: 26px;
 }
 
 .btn-atomic-tangerine {
@@ -825,6 +831,11 @@ h4 {
 
 .bg-presentation {
   background-image: url("img/image-de-presentation.webp");
+}
+
+.citation {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 @media (max-width: 1024px) {
