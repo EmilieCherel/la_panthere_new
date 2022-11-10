@@ -361,6 +361,13 @@ a:hover {
   z-index: 2;
 }
 
+.text-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333333 !important;
+}
+
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
